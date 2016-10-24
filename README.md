@@ -1,0 +1,2 @@
+# paradise.com
+school project
