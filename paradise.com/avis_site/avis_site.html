@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>php td</title>
+</head>
+<body>
+	<form action="traite_avis.php" method="post">
+
+		<center><h1>Bienvenue sur notre site!</h1></center>
+		<div>
+			<select id="type" name="type">
+				<option value="monsieur">Mr</option>
+				<option value="madame">Mme</option>
+			</select>
+		</div>
+		<div>
+			<p>Nom</p>
+			<input type="text" id="nom" name="nom">
+		</div>
+
+		<div>
+			<p>Prénom</p>
+			<input type="text" id="prenom" name="prenom">
+		</div>
+
+		<div>
+			<p>Email</p>
+			<input type="mail" id="mail" name="mail">
+		</div>
+
+		<div>
+			<br />
+			<span>Je reviendrai sur ce site...</span>
+			<span><input type="text" id="avis" name="avis"></span>
+		</div>
+
+		<div>
+			<center><input type="submit" id="valider" name="valider"></center>
+		</div>
+	</form>
+</body>
+</html>
